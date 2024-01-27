@@ -25,5 +25,8 @@ void selection_sort(int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void swapi(int *in1, int *in2);
+void quick_sort(int *array, size_t size);
+int part(int *arr, int low, int high);
+
 
 #endif
